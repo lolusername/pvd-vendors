@@ -13,7 +13,7 @@ from IPython.display import display
 import matplotlib.pyplot as plt
 
 # These help the maps display nicely in the notebook
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 plt.rcParams['figure.figsize'] = [30, 20]
 
 # This line tells iPython to not display warnings.
@@ -56,9 +56,9 @@ pvd = pvdCounty[pvdCounty.NAME < 40]
 # In[560]:
 
 
-get_ipython().system('pip install altair')
-get_ipython().system('pip install gpdvega')
-get_ipython().system('pip install altair vega_datasets')
+#get_ipython().system('pip install altair')
+#get_ipython().system('pip install gpdvega')
+#get_ipython().system('pip install altair vega_datasets')
 
 
 # In[561]:
@@ -107,7 +107,7 @@ current_ICERM
 
 
 import altair as alt
-import gpdvega 
+#import gpdvega 
 
 
 
@@ -192,7 +192,7 @@ gpd_pvd_income
 
 
 import altair as alt
-import gpdvega 
+#import gpdvega 
 
 current_ICERM = current_ICERM[:-1]
 
